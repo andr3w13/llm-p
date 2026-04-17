@@ -38,7 +38,7 @@ async def login(
 ):
     try:
         token = await usecase.login(
-            email=form.username,  # OAuth2 uses username field as email
+            email=form.username,
             password=form.password,
         )
 
