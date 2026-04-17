@@ -14,7 +14,7 @@ class Settings(BaseSettings):
 
     OPENROUTER_API_KEY: str
     OPENROUTER_BASE_URL: str = "https://openrouter.ai/api/v1"
-    OPENROUTER_MODEL: str = "minimax/minimax-m2.5:free"
+    OPENROUTER_MODEL: str = "mistralai/mistral-nemo"
 
     OPENROUTER_SITE_URL: str = "http://localhost"
     OPENROUTER_APP_NAME: str = "llm-fastapi-openrouter"
