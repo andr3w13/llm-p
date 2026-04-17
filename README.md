@@ -94,9 +94,7 @@ http://127.0.0.1:8000/docs
 
 POST `/auth/register`
 
-```
-[images/register.png]
-```
+![Регистрация](images/register.png)
 
 ---
 
@@ -104,9 +102,7 @@ POST `/auth/register`
 
 POST `/auth/login`
 
-```
-[images/login.png]
-```
+![Логин](images/login.png)
 
 ---
 
@@ -114,13 +110,9 @@ POST `/auth/login`
 
 Нажать кнопку **Authorize** и вставить полученный JWT токен.
 
-```
-[images/auth_1.png]
-```
+![Авторизация](images/auth_1.png)
 
-```
-[images/auth_2.png]
-```
+![Авторизация](images/auth_2.png)
 
 ---
 
@@ -139,9 +131,7 @@ POST `/chat`
 }
 ```
 
-```
-[images/chat.png]
-```
+![Чат](images/chat.png)
 
 ---
 
@@ -149,9 +139,7 @@ POST `/chat`
 
 GET `/chat/history`
 
-```
-[images/history.png]
-```
+![История](images/history.png)
 
 ---
 
@@ -159,12 +147,8 @@ GET `/chat/history`
 
 DELETE `/chat/history`
 
+![История](images/clear_history.png)
 
-```
-[images/clear_history.png]
-```
+![Очищенная история](images/history_cleared.png)
 
-```
-[images/history_cleared.png]
-```
 
